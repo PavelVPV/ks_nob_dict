@@ -1,32 +1,15 @@
-# Python / Node
-__pycache__/
-*.py[cod]
-node_modules/
-.env
-.venv/
-venv/
-
-# Reconstructed archives / extracted APK / databases
-Ordbokene.zip
-Ordbøkene.zip
-*.apk
 *.realm
 *.realm.lock
-*.realm.note
 *.realm.management/
-*.sqlite
-*.db
-
-# Generated dictionary data
-tmp/
-cache/
-build/
-dist/
-release/
-debug/export/
 *.json
 *.jsonl
-
-# Keep placeholders
-!debug/.gitkeep
-!debug/schema/.gitkeep
+tmp/
+cache/
+debug/export/
+dist/
+release/
+!debug/schema/
+!debug/schema/*.json
+!debug/schema/*.md
+tools/realm-js-runtime/node_modules/
+tools/realm-js-runtime/package-lock.json
