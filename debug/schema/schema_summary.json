@@ -1,0 +1,99 @@
+{
+  "source": "tmp/build/realm/ordboken.realm",
+  "classes": [
+    {
+      "name": "WordEntry",
+      "fields": [
+        "id",
+        "flattenedNodeText"
+      ],
+      "relationships": [],
+      "embedded_or_linked": "linked/list relationship inferred from field names and Realm metadata strings",
+      "indexes": "not available without Realm Core schema API"
+    },
+    {
+      "name": "Headword",
+      "fields": [
+        "id",
+        "flattenedNodeText"
+      ],
+      "relationships": [],
+      "embedded_or_linked": "linked/list relationship inferred from field names and Realm metadata strings",
+      "indexes": "not available without Realm Core schema API"
+    },
+    {
+      "name": "WordSenseGroup",
+      "fields": [
+        "id",
+        "flattenedNodeText"
+      ],
+      "relationships": [],
+      "embedded_or_linked": "linked/list relationship inferred from field names and Realm metadata strings",
+      "indexes": "not available without Realm Core schema API"
+    },
+    {
+      "name": "WordSenseEntry",
+      "fields": [
+        "id",
+        "flattenedNodeText"
+      ],
+      "relationships": [],
+      "embedded_or_linked": "linked/list relationship inferred from field names and Realm metadata strings",
+      "indexes": "not available without Realm Core schema API"
+    },
+    {
+      "name": "Inflection",
+      "fields": [
+        "id",
+        "flattenedNodeText"
+      ],
+      "relationships": [],
+      "embedded_or_linked": "linked/list relationship inferred from field names and Realm metadata strings",
+      "indexes": "not available without Realm Core schema API"
+    },
+    {
+      "name": "WordGram",
+      "fields": [
+        "id",
+        "flattenedNodeText"
+      ],
+      "relationships": [],
+      "embedded_or_linked": "linked/list relationship inferred from field names and Realm metadata strings",
+      "indexes": "not available without Realm Core schema API"
+    },
+    {
+      "name": "Etymology",
+      "fields": [
+        "id",
+        "flattenedNodeText"
+      ],
+      "relationships": [],
+      "embedded_or_linked": "linked/list relationship inferred from field names and Realm metadata strings",
+      "indexes": "not available without Realm Core schema API"
+    },
+    {
+      "name": "Reference",
+      "fields": [
+        "id",
+        "flattenedNodeText"
+      ],
+      "relationships": [],
+      "embedded_or_linked": "linked/list relationship inferred from field names and Realm metadata strings",
+      "indexes": "not available without Realm Core schema API"
+    },
+    {
+      "name": "InflectionTableRow",
+      "fields": [
+        "id",
+        "flattenedNodeText"
+      ],
+      "relationships": [],
+      "embedded_or_linked": "linked/list relationship inferred from field names and Realm metadata strings",
+      "indexes": "not available without Realm Core schema API"
+    }
+  ],
+  "notes": [
+    "Schema was inspected dynamically where possible; this environment lacks Realm Core bindings, so this report is augmented by Realm metadata strings found in the file.",
+    "No migration code is stored in the Realm file; APK classes should be decompiled for application migration logic if needed."
+  ]
+}
